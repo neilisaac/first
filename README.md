@@ -24,5 +24,6 @@ First also supports:
  * `s := "pointers"; first.String(&s)`
  * `first.String(func() { return "functions returning strings" })`
  * Interfaces with a `String() string` method
+ * `first.Error(err1, err2)`
 
 Don't `panic()`.
